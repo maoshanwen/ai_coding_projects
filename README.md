@@ -58,6 +58,7 @@ python app.py
 
 运行截图：
 
+<img src="docs/screenshots/green_diary_home.png" alt="green diary home" width="1200" />
 <img src="docs/screenshots/green_diary_editor.png" alt="green diary editor" width="1200" />
 
 ### 2) clone_web
