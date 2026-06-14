@@ -24,6 +24,9 @@ venv/
 *.sqlite
 *.sqlite3
 
+# Local user uploads
+green_diary/static/uploads/
+
 # Node and frontend build artifacts
 node_modules/
 dist/
