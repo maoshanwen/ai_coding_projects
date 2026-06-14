@@ -56,6 +56,10 @@ python app.py
 
 结果与思考：这个项目对我是真正有长期价值的。它不是为了比赛，不是为了 demo，而是我每天会用来写东西、沉淀思路的工具。对我来说，它证明了 vibe coding 最实在的一点：先把自己真正痛的点解决掉。
 
+运行截图：
+
+![green diary editor](docs/screenshots/green_diary_editor.png)
+
 ### 2) clone_web
 
 目标：从“好看的网页截图”反推设计结构，辅助我自己的页面设计。
@@ -81,6 +85,10 @@ uvicorn app.main:app --reload
 1. 这条路在配色、字体、布局这些“结构层”上是有效的。
 2. 但到了真正影响审美的细节动画和节奏感，我当时的分析模型能力还不够，效果只能做到“大概像”。
 3. 我不想在一个边际收益快速下降的方向里死磕，所以先停掉，保留方法，后面有更强模型再回头做。
+
+运行截图：
+
+![clone web ui](docs/screenshots/clone_web_ui.png)
 
 ### 3) face
 
@@ -108,6 +116,10 @@ npm run dev
 
 ![face input](face/public/photo/face.png)
 ![face style sample](face/public/photo/fairy2.png)
+
+运行截图：
+
+![face realtime ui](docs/screenshots/face_realtime_ui.png)
 
 ### 4) happy_me
 
@@ -137,6 +149,10 @@ pip install -e '.[dev]'
 2. 科研侧虽然能给出很多结论，但我没有足够时间逐条审阅和消化，实际使用成本偏高。
 3. 所以我后面把重心迁到竞赛深挖，并把这部分经验继续沉淀到 tx_happy。
 
+运行截图：
+
+![happy me swagger](docs/screenshots/happy_me_swagger.png)
+
 ### 5) tx_happy
 
 背景与目标：
@@ -165,6 +181,10 @@ cd tx_happy
 bash run.sh
 ```
 
+运行截图（当前环境缺少 `torch`，先记录真实状态）：
+
+![tx_happy run result](docs/screenshots/tx_happy_run_result.png)
+
 ### 6) let_code_ai
 
 目标：做一个我刷力扣时“截图即出题解”的小工具，减少在多个页面来回找资料的时间。
@@ -177,6 +197,10 @@ bash run.sh
 cd let_code_ai
 python ai_let_code.py
 ```
+
+运行截图（当前环境缺少 `Pillow`，先记录真实状态）：
+
+![let_code_ai run result](docs/screenshots/let_code_ai_run_result.png)
 
 延伸思考：我一直觉得，开发者能力不该只由刷题定义。真正拉开差距的，更多是架构理解、定位问题的能力、工程调试、部署协作这些“实战素养”。这个小工具本质上是在帮我把时间从低价值检索里省出来，投到更有复利的能力建设上。
 
