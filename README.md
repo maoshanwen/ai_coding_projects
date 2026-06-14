@@ -58,7 +58,7 @@ python app.py
 
 运行截图：
 
-![green diary editor](docs/screenshots/green_diary_editor.png)
+<img src="docs/screenshots/green_diary_editor.png" alt="green diary editor" width="1200" />
 
 ### 2) clone_web
 
@@ -88,7 +88,7 @@ uvicorn app.main:app --reload
 
 运行截图：
 
-![clone web ui](docs/screenshots/clone_web_ui.png)
+<img src="docs/screenshots/clone_web_ui.png" alt="clone web ui" width="1200" />
 
 ### 3) face
 
@@ -114,12 +114,12 @@ npm run dev
 
 可公开效果图（素材示意）：
 
-![face input](face/public/photo/face.png)
-![face style sample](face/public/photo/fairy2.png)
+<img src="face/public/photo/face.png" alt="face input" width="1200" />
+<img src="face/public/photo/fairy2.png" alt="face style sample" width="1200" />
 
 运行截图：
 
-![face realtime ui](docs/screenshots/face_realtime_ui.png)
+<img src="docs/screenshots/face_realtime_ui.png" alt="face realtime ui" width="1200" />
 
 ### 4) happy_me
 
@@ -151,7 +151,7 @@ pip install -e '.[dev]'
 
 运行截图：
 
-![happy me swagger](docs/screenshots/happy_me_swagger.png)
+<img src="docs/screenshots/happy_me_swagger.png" alt="happy me swagger" width="1200" />
 
 ### 5) tx_happy
 
@@ -183,7 +183,7 @@ bash run.sh
 
 运行截图（当前环境缺少 `torch`，先记录真实状态）：
 
-![tx_happy run result](docs/screenshots/tx_happy_run_result.png)
+<img src="docs/screenshots/tx_happy_run_result.png" alt="tx_happy run result" width="1200" />
 
 ### 6) let_code_ai
 
@@ -200,7 +200,7 @@ python ai_let_code.py
 
 运行截图（当前环境缺少 `Pillow`，先记录真实状态）：
 
-![let_code_ai run result](docs/screenshots/let_code_ai_run_result.png)
+<img src="docs/screenshots/let_code_ai_run_result.png" alt="let_code_ai run result" width="1200" />
 
 延伸思考：我一直觉得，开发者能力不该只由刷题定义。真正拉开差距的，更多是架构理解、定位问题的能力、工程调试、部署协作这些“实战素养”。这个小工具本质上是在帮我把时间从低价值检索里省出来，投到更有复利的能力建设上。
 
