@@ -1,1 +1,39 @@
 .DS_Store
+
+# Secrets and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node and frontend build artifacts
+node_modules/
+dist/
+build/
+*.tsbuildinfo
+
+# Logs and runtime files
+*.log
+*.pid
+
+# Editor
+.vscode/
+
