@@ -113,10 +113,8 @@ npm run dev
 
 结果与思考：这个方向如果不引入更强模型，效果上限很快就会碰到天花板。项目本身让我更清楚地认识到“工程实现”和“模型能力”之间的边界，所以我选择暂缓，不把时间投入到短期看不到突破的位置。
 
-可公开效果图（素材示意）：
 
-<img src="face/public/photo/face.png" alt="face input" width="1200" />
-<img src="face/public/photo/fairy2.png" alt="face style sample" width="1200" />
+
 
 运行截图：
 
@@ -154,6 +152,8 @@ pip install -e '.[dev]'
 
 <img src="docs/screenshots/happy_me_swagger.png" alt="happy me swagger" width="1200" />
 
+<img src="docs/screenshots/happy_me_swagger2.png" alt="happy me swagger1" width="1200" />
+
 ### 5) tx_happy
 
 背景与目标：
@@ -182,7 +182,7 @@ cd tx_happy
 bash run.sh
 ```
 
-运行截图（当前环境缺少 `torch`，先记录真实状态）：
+运行截图：
 
 <img src="docs/screenshots/tx_happy_run_result.png" alt="tx_happy run result" width="1200" />
 
@@ -199,7 +199,7 @@ cd let_code_ai
 python ai_let_code.py
 ```
 
-运行截图（当前环境缺少 `Pillow`，先记录真实状态）：
+运行截图：
 
 <img src="docs/screenshots/let_code_ai_run_result.png" alt="let_code_ai run result" width="1200" />
 
